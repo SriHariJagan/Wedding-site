@@ -1,0 +1,163 @@
+.aboutContainer {
+    width: 100%;
+    min-height: 89vh;
+    padding: 1px 40px;
+    background-image: linear-gradient(to right bottom, #f8f88c, #eff5a0, #e9f1b3, #e4edc4, #e2e8d4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title Styling */
+#aboutTitle {
+    font-size: 3rem;
+    padding: 10px 0;
+    color: orange;
+    text-shadow: 1px 1px #3c3c3c;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-align: center;
+}
+
+/* About Box */
+.aboutusBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Image & Content */
+.aboutusImg,
+.aboutusContent {
+    width: 44%;
+    height: 350px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.aboutusContent {
+    height: max-content;
+    /* background-color: rgba(229, 229, 229, 0.999); */
+    /* box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.436); */
+    padding: 10px 20px;
+    transition: 300ms;
+    
+}
+
+.aboutusContent:hover {
+    scale: 1.04;
+}
+
+/* Image Styling */
+.aboutusImg {
+    box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.436);
+    transition: 300ms;
+
+}
+
+.aboutusImg:hover {
+    scale: 1.04;
+}
+
+
+.aboutusImg > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Content */
+.aboutusContent {
+    text-align: left;
+}
+
+/* Heading */
+.aboutHeading {
+    width: 100%;
+}
+
+
+.aboutHeading > h2:first-child {
+    color: #bfa513;
+    font-size: 28px;
+}
+
+.aboutHeading > h2 {
+    font-size: 32px;
+    color: rgb(251, 137, 84);
+}
+
+/* Bullet Points */
+.aboutUl {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.aboutUl > li {
+    margin: 6px 0;
+    font-size: 18px;
+    color: rgb(71, 78, 13);
+}
+
+.aboutUl > li::first-letter {
+    font-size: 28px;
+    color: rgb(245, 109, 47);;
+}
+
+/* ✅ Responsive Design */
+@media screen and (max-width: 1024px) {
+    .aboutContainer {
+        min-height: 100vh;
+    }
+
+    .aboutusBox {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutusImg,
+    .aboutusContent {
+        width: 80%;
+    }
+
+    .aboutusImg {
+        margin: 50px 0;
+    }
+
+    #aboutTitle {
+        font-size: 2.2rem;
+    }
+}
+
+/* ✅ Mobile Optimization */
+@media screen and (max-width: 600px) {
+    .aboutContainer {
+        padding: 10px 20px;
+    }
+
+    .aboutusImg,
+    .aboutusContent {
+        width: 100%;
+    }
+
+    .aboutusImg {
+        height: 250px;
+    }
+
+    #aboutTitle {
+        font-size: 2rem;
+    }
+
+    .aboutHeading > h2 {
+        font-size: 28px;
+    }
+
+    .aboutUl > li {
+        font-size: 16px;
+    }
+}
