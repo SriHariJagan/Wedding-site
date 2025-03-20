@@ -1,7 +1,9 @@
 .galleryContainer{
     width: 100%;
     min-height: max-content;
-    background-image: linear-gradient(to right bottom, #e4edc4, #e2e8d4);
+    /* background-image: linear-gradient(to right bottom, #e4edc4, #e2e8d4); */
+    background-color: #fff;
+
     padding: 20px 0;
 }
 
@@ -25,13 +27,15 @@
 
 .galleryTypes> button{
     margin: 0 15px;
-    padding: 6px 12px;
-    border-radius: 6px;
+    padding: 8px 16px;
+    border-radius: 4% 96% 0% 100% / 75% 23% 77% 25%  ;
+    border: none;
     outline: none;
-    border: 1px solid black;
+
     cursor: pointer;
-    background-color: rgba(244, 212, 119, 0.641);
-    color: rgb(81, 103, 14);
+    background-color: rgb(231, 227, 157);
+    /* color: rgb(81, 103, 14); */
+    color: rgb(69, 69, 69);
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -41,9 +45,8 @@
 
 
 .galleryTypes> button:hover{
-    background-color: #fedda47c;
-    color: rgb(131, 196, 0);
-    font-weight: 600;
+    background-color: #7a54137c;
+    color: rgb(255, 255, 255);
 }
 
 .galleryImageContainer{

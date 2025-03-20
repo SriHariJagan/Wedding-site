@@ -1,8 +1,8 @@
 /* Footer Section */
 .footerSection {
-  background-image: linear-gradient(to right bottom, #e4edc4, #e2e8d4);
+  background-image: linear-gradient(to bottom, #ffffff, #6c6c6c);
 
-  background-image: linear-gradient( #e2e8d4,#a2a2a1d0, #6b6a69);
+  /* background-image: linear-gradient( #e2e8d4,#a2a2a1d0, #6b6a69); */
   position: relative;
   padding-top: 80px;
   padding-bottom: 0;

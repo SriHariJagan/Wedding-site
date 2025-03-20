@@ -3,7 +3,9 @@
     min-height: 53vh;
     padding: 15px 40px;
     padding-top: 10px;
-    background-image: linear-gradient(to right bottom,  #E6EEBE, #e4edc4, #e2e8d4);
+    /* background-image: linear-gradient(to right bottom,  #E6EEBE, #e4edc4, #e2e8d4); */
+    background-color: #fff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
