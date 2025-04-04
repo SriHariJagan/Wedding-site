@@ -51,18 +51,15 @@ export const servicesData = [
 export const galleryImages = {
   All: [
     "https://t4.ftcdn.net/jpg/08/86/12/63/240_F_886126391_zRYK718Nh1oxPo2ycGv66yQag8jUmmoN.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%202.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%201.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%2015.jpg",
     "https://i.pinimg.com/736x/a9/9c/c2/a99cc2212ec6d00deefe97d3c22edb12.jpg",
     "https://cdn-ilbmfjf.nitrocdn.com/gQtAvEqQsEkcApHLZVxAKgHurqnprTSZ/assets/images/optimized/rev-eadc775/digiartphotography.com/wp-content/uploads/pre-wedding-couple-photoshoot-gandipet-hyderabad-digiart-photography-683x1024.jpg",
     "https://thumbs.dreamstime.com/b/very-happy-indian-couple-their-wedding-day-22337930.jpg",
   ],
   Traditional: [
     "https://t4.ftcdn.net/jpg/08/86/12/63/240_F_886126391_zRYK718Nh1oxPo2ycGv66yQag8jUmmoN.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%202.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%201.jpg",
-    "https://kapukalyanavedika.com/assets/img/WhatsApp%20Image%2015.jpg",
+    "https://images.pexels.com/photos/25158843/pexels-photo-25158843.jpeg?cs=srgb&dl=pexels-909646465-25158843.jpg&fm=jpg",
+    "https://images.pexels.com/photos/20058062/pexels-photo-20058062.jpeg?cs=srgb&dl=pexels-fliqaindia-20058062.jpg&fm=jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YE65HkYzYd0vd4sAtI2hGcu_n9g0V_1JHkvnB7EnOnGgYfk0C2VRs6lfCbHJVMi-ANw&usqp=CAU",
   ],
   Artistic: [
     "https://i.pinimg.com/736x/a9/9c/c2/a99cc2212ec6d00deefe97d3c22edb12.jpg",
