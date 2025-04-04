@@ -22,7 +22,7 @@ const Footer = () => {
                 </a>
               </div>
               <p className={styles.footerText}>
-              503, 5th Floor, Plot No.57, Sai Balaji Arcade,Road No.4, Ayyappa Society, Madhapur, HYDERABAD - 500081. India
+              Yalla Venkata Satyanarayana (YVS), <br /> Dr 68-8-11, F2 Lakshmi Enclave,<br /> Glow Park Beside Road, <br /> Lala Cheruvu, Rajahmundry - 533106, <br /> Andhra Pradesh, INDIA.
               </p>
               <div className={styles.footerSocialIcon}>
                 <span>Follow us</span>

@@ -7,7 +7,14 @@ const ContactItem = ({icon, name, description}) => {
     <div className={`${styles.contactItem} ${className} topBlock`}>
       <i className={icon} /> 
       <b>{name}</b>
-      <p>{description}</p>
+      <p className={styles.description}>
+        {description.split('\n').map((line, idx) => (
+          <span key={idx}>
+            {line}
+            <br />
+          </span>
+        ))}
+      </p>
     </div>
   );
 };

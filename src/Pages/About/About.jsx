@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./about.module.css";
-import { aboutImages } from "../../Utils/IMAGES.JS";
+import { aboutImages } from "../../constants";
 
 
 const About = () => {

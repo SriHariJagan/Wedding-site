@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 import ContactItem from "../../Components/ContactItem/ContactItem";
 import ContactForm from "../../Components/ContactForm/ConatctForm";
 
-import { contactList } from "../../Utils/IMAGES.JS";
+import { contactList } from "../../constants";
 
 const Contact = () => {
   return (

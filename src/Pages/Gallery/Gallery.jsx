@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./gallery.module.css";
-import { galleryImages } from "../../Utils/IMAGES.JS";
+import { galleryImages } from "../../constants";
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");

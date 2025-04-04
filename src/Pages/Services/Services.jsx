@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./services.module.css";
 import ServiceCard from "../../Components/ServiceCard/ServiceCard";
 
-import { servicesData } from "../../Utils/IMAGES.JS";
+import { servicesData } from "../../constants";
 
 const Services = () => {
   const [showContent, setShowContent] = useState("సంబంధం");
