@@ -90,7 +90,7 @@ export const contactList = [
   {
     icon: "fa-solid fa-phone-volume",
     name: "call",
-    description: "9392504567",
+    description: "7997113355",
   },
   {
     icon: "fa-solid fa-envelope",
