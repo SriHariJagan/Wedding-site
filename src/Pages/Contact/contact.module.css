@@ -1,6 +1,6 @@
 .contactContainer{
     width: 100%;
-    min-height: 88vh;
+    min-height: max-content;
     /* background-image: linear-gradient(to right bottom, #E2E8D3, #e2e8d4); */
     background-color: #fff;
     padding: 25px 0;

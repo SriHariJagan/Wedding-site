@@ -22,7 +22,7 @@ const Contact = () => {
         <div className={`${styles.contactLocation} rightBlock`}>
           <iframe
             className={styles.locationMap}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.5619809971586!2d81.80613609538958!3d16.99608266521729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a398b43ada1f%3A0x7b9ba4cd521ff6d8!2sLakshmi%20Enclave!5e0!3m2!1sen!2sin!4v1743765612296!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3814.8925037986396!2d81.80038067515683!3d17.028942083798476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDAxJzQ0LjIiTiA4McKwNDgnMTAuNiJF!5e0!3m2!1sen!2sin!4v1744087334492!5m2!1sen!2sin"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -34,4 +34,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
