@@ -12,7 +12,7 @@ const Footer = () => {
               <div className={styles.footerLogo}>
                 <a href="/">
                   <img
-                    src="https://agatesolutions.in/assets/images/Agate%20Logo.png%204.png"
+                    src="/Images/logo.png"
                     className={styles.imgFluid}
                     alt="logo"
                   />

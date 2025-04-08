@@ -7,7 +7,7 @@ export const aboutImages = [
 export const servicesData = [
   {
     id: "01",
-    name: "సంబంధం",
+    name: "సంబంధాలు",
     img: "https://i.pinimg.com/736x/98/39/52/983952b39f50d4414a2edb19f61501ac.jpg",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At aspernatur odit ab.",
@@ -17,7 +17,7 @@ export const servicesData = [
   },
   {
     id: "02",
-    name: " కానుక",
+    name: " కానుకలు",
     img: "https://i.pinimg.com/736x/98/39/52/983952b39f50d4414a2edb19f61501ac.jpg",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At aspernatur odit ab.",

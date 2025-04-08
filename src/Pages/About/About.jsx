@@ -20,7 +20,7 @@ const About = () => {
       <div className={styles.aboutusBox}>
         <div className={styles.aboutusContent}>
           <div className={`${styles.aboutHeading} block`}>
-            <h2>కాపు రత్నాలు పెళ్లి వేదిక</h2>
+            <h2>కాపు పెళ్లి వేదిక</h2>
             {/* <h2>Nandam ELITE Matrimony</h2> */}
             <ul className={styles.aboutUl}>
               <li>

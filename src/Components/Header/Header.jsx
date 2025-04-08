@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav className={styles.navBar}>
       <div className={styles.leftLogo}>
-        <img src="Images/logo.png" alt="logo" width={40}/>
+        <img src="Images/logo.png" alt="logo" width={60}/>
         <h1 id={styles.title}>కాపు పెళ్లి పందిరి</h1>
       </div>
 
