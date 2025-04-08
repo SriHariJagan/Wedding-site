@@ -7,7 +7,10 @@ const Header = () => {
 
   return (
     <nav className={styles.navBar}>
-      <h1 id={styles.title}>కాపు రత్నాలు పెళ్లి వేదిక</h1>
+      <div className={styles.leftLogo}>
+        <img src="Images/logo.png" alt="logo" width={40}/>
+        <h1 id={styles.title}>కాపు పెళ్లి పందిరి</h1>
+      </div>
 
       {/* Mobile Menu Icon */}
       <div className={styles.menuIcon} onClick={() => setMenuOpen(!menuOpen)}>

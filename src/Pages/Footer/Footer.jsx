@@ -18,7 +18,7 @@ const Footer = () => {
                   />
                 </a>
                 <a href="/" >
-                  <h1 className={styles.footerTitle}>కాపు రత్నాలు పెళ్లి వేదిక</h1>
+                  <h1 className={styles.footerTitle}>కాపు పెళ్లి పందిరి</h1>
                 </a>
               </div>
               <p className={styles.footerText}>
