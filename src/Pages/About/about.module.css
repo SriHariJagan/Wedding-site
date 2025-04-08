@@ -1,7 +1,7 @@
 .aboutContainer {
     width: 100%;
-    min-height: 89vh;
-    padding: 1px 40px;
+    min-height: max-content;
+    padding: 40px;
     /* background-image: linear-gradient(to right bottom, #f8f88c, #eff5a0, #e9f1b3, #e4edc4, #e2e8d4); */
     background-color: #fff;
     display: flex;
@@ -111,10 +111,7 @@
 
 /* ✅ Responsive Design */
 @media screen and (max-width: 1024px) {
-    .aboutContainer {
-        min-height: 100vh;
-    }
-
+ 
     .aboutusBox {
         flex-direction: column;
         align-items: center;
@@ -138,7 +135,7 @@
 /* ✅ Mobile Optimization */
 @media screen and (max-width: 600px) {
     .aboutContainer {
-        padding: 10px 20px;
+        padding: 20px;
     }
 
     .aboutusImg,
